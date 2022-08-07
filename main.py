@@ -49,7 +49,7 @@ class Pokedex_pro:
         }
 
     def add_dict_into_file_json(self, arquivo, dictionary):
-        # E depois tentei escrever o segundo, adicionando no JSON existente
+        # And then I tried to write the second one, adding in the existing JSON
         with open(arquivo, 'a+') as file:
 
             # return the point to the top of the file
