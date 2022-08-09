@@ -259,7 +259,7 @@ class Pokedex_pro:
         print(f'List by Attack {"": ^13} (4)')
         print(f'List by Type {"": ^15} (5)')
         print(f'List Pokedex {"": ^15} (6)')
-        print(f'Add/Edit/Remove Pokedex {"": ^4} (7)')
+        print(f'Add/Edit Pokedex {"": ^4} (7)')
 
     def clear_window(self):
         return os.system('cls')
